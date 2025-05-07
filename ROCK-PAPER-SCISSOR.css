@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/img2.jpeg');
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-self: center;
+}
+.text{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+.main{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    box-shadow: 0 0 20px black;
+}
+
+.move-icon{
+    height: 70px;
+    width: 70px;
+}
+.move-button{
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 30px;
+    margin-right: 10px;
+    border-radius: 80px;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+}
+.move-button:active{
+    border: dotted;
+    border-color: white;
+    box-shadow: none;
+}
+.reset,
+.autoplay{
+    background-color: rgb(240, 240, 240);
+    font-size: 15px;
+    padding: 15px;
+    color: black;
+}
